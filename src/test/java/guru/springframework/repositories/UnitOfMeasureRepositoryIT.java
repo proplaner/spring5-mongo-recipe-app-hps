@@ -31,6 +31,7 @@ public class UnitOfMeasureRepositoryIT {
 
     @Before
     public void setUp() throws Exception {
+
         recipeRepository.deleteAll();
         unitOfMeasureRepository.deleteAll();
         categoryRepository.deleteAll();
